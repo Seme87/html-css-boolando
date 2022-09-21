@@ -74,10 +74,99 @@ header{
 .row-main{
     display: flex;
     flex-wrap: wrap;
+    /* background-color: yellow; */
 }
 
 
 .box{
-    width: calc(33,3%-10px);
-    background-color:yellow;
+    width:calc(100%/3);
+    padding: 10px 10px;
+    /* background-color: red; */
+}
+
+.box .img-default{
+    width: 100%;
+    display: block;
+}
+
+.box .img-hover{
+    width: 100%;
+}
+
+
+.card{
+    position: relative;
+}
+
+
+.sale{
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 5px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.sost{
+        font-size: 10px;
+        background-color:green;
+        color: white;
+        padding: 5px 5px;
+        position: absolute;
+        bottom: 30px;
+        left: 35px;
+}
+
+.heart{
+    background-color: white;
+    padding: 5px 5px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: black;
+    
+}
+
+#special{
+    font-size: 10px;
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+
+.model{
+    font-weight: bolder;
+}
+
+.price{
+    color: red;
+}
+
+del{
+    color: black;
+}
+
+.img-hover{
+    display: none;
+}
+
+
+.box:hover .img-hover{
+    display: block;
+    transition:all 0.3s ease-in-out;
+}
+
+
+.box:hover .img-default{
+    display: none;
+    transition: 0.6ms;
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover .heart{
+    color: red;
 }
