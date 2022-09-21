@@ -35,7 +35,7 @@ header{
     color: white;
 }
 
-.row{
+.row-header{
     padding: 14px 0;
     display: flex;
     justify-content: space-between;
@@ -67,6 +67,9 @@ header{
 
 
 /* ----HEADER----- */
+
+
+
 
 
 /* ----MAIN----- */
@@ -169,4 +172,30 @@ del{
 
 .box:hover .heart{
     color: red;
+}
+
+
+/* ----MAIN----- */
+
+
+
+
+/* ----FOOTER----- */
+
+footer{
+    color: white;
+    background-color: black;
+}
+
+.row-footer{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.legal a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
 }
