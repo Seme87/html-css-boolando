@@ -64,3 +64,20 @@ header{
     padding: 0 5px;
     color: white;
 }
+
+
+/* ----HEADER----- */
+
+
+/* ----MAIN----- */
+
+.row-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box{
+    width: calc(33,3%-10px);
+    background-color:yellow;
+}
